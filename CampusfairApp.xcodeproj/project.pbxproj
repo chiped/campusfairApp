@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396CCE7919DDB68F00AE1235 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396CCE7819DDB68F00AE1235 /* AuthenticationViewController.m */; };
+		39746A8619DEE09800F3B516 /* BarclaycardCo_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8019DEE08800F3B516 /* BarclaycardCo_Bd.ttf */; };
+		39746A8719DEE09F00F3B516 /* BarclaycardCo_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8119DEE08800F3B516 /* BarclaycardCo_Lt.ttf */; };
+		39746A8819DEE09F00F3B516 /* BarclaycardCo_Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8219DEE08800F3B516 /* BarclaycardCo_Rg.ttf */; };
+		39746A8919DEE09F00F3B516 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8319DEE08800F3B516 /* MyriadPro-Bold.otf */; };
+		39746A8A19DEE09F00F3B516 /* Tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8419DEE08800F3B516 /* Tahoma.ttf */; };
+		39746A8B19DEE09F00F3B516 /* TahomaBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8519DEE08800F3B516 /* TahomaBd.ttf */; };
 		39F3AE6819DAF934002EB0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6719DAF934002EB0E4 /* Foundation.framework */; };
 		39F3AE6A19DAF934002EB0E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6919DAF934002EB0E4 /* CoreGraphics.framework */; };
 		39F3AE6C19DAF934002EB0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6B19DAF934002EB0E4 /* UIKit.framework */; };
@@ -21,6 +28,15 @@
 		39F3AE8919DAF934002EB0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6B19DAF934002EB0E4 /* UIKit.framework */; };
 		39F3AE9119DAF934002EB0E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F3AE8F19DAF934002EB0E4 /* InfoPlist.strings */; };
 		39F3AE9319DAF934002EB0E4 /* CampusfairAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AE9219DAF934002EB0E4 /* CampusfairAppTests.m */; };
+		39F3AEA319DAFACB002EB0E4 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AE9E19DAFACB002EB0E4 /* JVFloatLabeledTextField.m */; };
+		39F3AEA419DAFACB002EB0E4 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEA019DAFACB002EB0E4 /* JVFloatLabeledTextView.m */; };
+		39F3AEA519DAFACB002EB0E4 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEA219DAFACB002EB0E4 /* NSString+TextDirectionality.m */; };
+		39F3AEA719DB3604002EB0E4 /* majorList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F3AEA619DB3604002EB0E4 /* majorList.plist */; };
+		39F3AEAA19DB37DD002EB0E4 /* MajorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEA919DB37DD002EB0E4 /* MajorTableViewController.m */; };
+		39F3AEAF19DC64E0002EB0E4 /* StudentCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEAC19DC64E0002EB0E4 /* StudentCellTableViewCell.m */; };
+		39F3AEB019DC64E0002EB0E4 /* StudentDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEAE19DC64E0002EB0E4 /* StudentDataViewController.m */; };
+		39F3AEB319DC652A002EB0E4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEB219DC652A002EB0E4 /* Student.m */; };
+		39F3AEB919DCA20D002EB0E4 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEB819DCA20D002EB0E4 /* SuccessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396CCE7719DDB68F00AE1235 /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		396CCE7819DDB68F00AE1235 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		39746A8019DEE08800F3B516 /* BarclaycardCo_Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Bd.ttf; path = Resources/Fonts/BarclaycardCo_Bd.ttf; sourceTree = "<group>"; };
+		39746A8119DEE08800F3B516 /* BarclaycardCo_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Lt.ttf; path = Resources/Fonts/BarclaycardCo_Lt.ttf; sourceTree = "<group>"; };
+		39746A8219DEE08800F3B516 /* BarclaycardCo_Rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Rg.ttf; path = Resources/Fonts/BarclaycardCo_Rg.ttf; sourceTree = "<group>"; };
+		39746A8319DEE08800F3B516 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Bold.otf"; path = "Resources/Fonts/MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		39746A8419DEE08800F3B516 /* Tahoma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tahoma.ttf; path = Resources/Fonts/Tahoma.ttf; sourceTree = "<group>"; };
+		39746A8519DEE08800F3B516 /* TahomaBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TahomaBd.ttf; path = Resources/Fonts/TahomaBd.ttf; sourceTree = "<group>"; };
 		39F3AE6419DAF934002EB0E4 /* CampusfairApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusfairApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F3AE6719DAF934002EB0E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		39F3AE6919DAF934002EB0E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +77,23 @@
 		39F3AE8E19DAF934002EB0E4 /* CampusfairAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampusfairAppTests-Info.plist"; sourceTree = "<group>"; };
 		39F3AE9019DAF934002EB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39F3AE9219DAF934002EB0E4 /* CampusfairAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusfairAppTests.m; sourceTree = "<group>"; };
+		39F3AE9D19DAFACB002EB0E4 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		39F3AE9E19DAFACB002EB0E4 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		39F3AE9F19DAFACB002EB0E4 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		39F3AEA019DAFACB002EB0E4 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		39F3AEA119DAFACB002EB0E4 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		39F3AEA219DAFACB002EB0E4 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		39F3AEA619DB3604002EB0E4 /* majorList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = majorList.plist; sourceTree = "<group>"; };
+		39F3AEA819DB37DD002EB0E4 /* MajorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorTableViewController.h; sourceTree = "<group>"; };
+		39F3AEA919DB37DD002EB0E4 /* MajorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorTableViewController.m; sourceTree = "<group>"; };
+		39F3AEAB19DC64E0002EB0E4 /* StudentCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentCellTableViewCell.h; sourceTree = "<group>"; };
+		39F3AEAC19DC64E0002EB0E4 /* StudentCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentCellTableViewCell.m; sourceTree = "<group>"; };
+		39F3AEAD19DC64E0002EB0E4 /* StudentDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDataViewController.h; sourceTree = "<group>"; };
+		39F3AEAE19DC64E0002EB0E4 /* StudentDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDataViewController.m; sourceTree = "<group>"; };
+		39F3AEB119DC652A002EB0E4 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		39F3AEB219DC652A002EB0E4 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		39F3AEB719DCA20D002EB0E4 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		39F3AEB819DCA20D002EB0E4 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +120,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39746A7C19DEDF9600F3B516 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39746A7F19DEE01F00F3B516 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39746A7F19DEE01F00F3B516 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39746A8019DEE08800F3B516 /* BarclaycardCo_Bd.ttf */,
+				39746A8119DEE08800F3B516 /* BarclaycardCo_Lt.ttf */,
+				39746A8219DEE08800F3B516 /* BarclaycardCo_Rg.ttf */,
+				39746A8319DEE08800F3B516 /* MyriadPro-Bold.otf */,
+				39746A8419DEE08800F3B516 /* Tahoma.ttf */,
+				39746A8519DEE08800F3B516 /* TahomaBd.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		39F3AE5B19DAF934002EB0E4 = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +177,24 @@
 				39F3AE7619DAF934002EB0E4 /* AppDelegate.h */,
 				39F3AE7719DAF934002EB0E4 /* AppDelegate.m */,
 				39F3AE7919DAF934002EB0E4 /* Main.storyboard */,
+				39F3AEAB19DC64E0002EB0E4 /* StudentCellTableViewCell.h */,
+				39F3AEAC19DC64E0002EB0E4 /* StudentCellTableViewCell.m */,
+				39F3AEAD19DC64E0002EB0E4 /* StudentDataViewController.h */,
+				39F3AEAE19DC64E0002EB0E4 /* StudentDataViewController.m */,
 				39F3AE7C19DAF934002EB0E4 /* ViewController.h */,
 				39F3AE7D19DAF934002EB0E4 /* ViewController.m */,
+				39F3AEA819DB37DD002EB0E4 /* MajorTableViewController.h */,
+				39F3AEA919DB37DD002EB0E4 /* MajorTableViewController.m */,
+				396CCE7719DDB68F00AE1235 /* AuthenticationViewController.h */,
+				396CCE7819DDB68F00AE1235 /* AuthenticationViewController.m */,
+				39F3AEB119DC652A002EB0E4 /* Student.h */,
+				39F3AEB219DC652A002EB0E4 /* Student.m */,
 				39F3AE7F19DAF934002EB0E4 /* Images.xcassets */,
+				39746A7C19DEDF9600F3B516 /* Resources */,
+				39F3AE9C19DAFAB7002EB0E4 /* FloatingLabel */,
 				39F3AE6E19DAF934002EB0E4 /* Supporting Files */,
+				39F3AEB719DCA20D002EB0E4 /* SuccessViewController.h */,
+				39F3AEB819DCA20D002EB0E4 /* SuccessViewController.m */,
 			);
 			path = CampusfairApp;
 			sourceTree = "<group>";
@@ -130,6 +206,7 @@
 				39F3AE7019DAF934002EB0E4 /* InfoPlist.strings */,
 				39F3AE7319DAF934002EB0E4 /* main.m */,
 				39F3AE7519DAF934002EB0E4 /* CampusfairApp-Prefix.pch */,
+				39F3AEA619DB3604002EB0E4 /* majorList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +227,19 @@
 				39F3AE8F19DAF934002EB0E4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39F3AE9C19DAFAB7002EB0E4 /* FloatingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				39F3AE9D19DAFACB002EB0E4 /* JVFloatLabeledTextField.h */,
+				39F3AE9E19DAFACB002EB0E4 /* JVFloatLabeledTextField.m */,
+				39F3AE9F19DAFACB002EB0E4 /* JVFloatLabeledTextView.h */,
+				39F3AEA019DAFACB002EB0E4 /* JVFloatLabeledTextView.m */,
+				39F3AEA119DAFACB002EB0E4 /* NSString+TextDirectionality.h */,
+				39F3AEA219DAFACB002EB0E4 /* NSString+TextDirectionality.m */,
+			);
+			path = FloatingLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +289,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = BarclayCardUS;
 				TargetAttributes = {
+					39F3AE6319DAF934002EB0E4 = {
+						DevelopmentTeam = DBUTFWAU2B;
+					};
 					39F3AE8419DAF934002EB0E4 = {
 						TestTargetID = 39F3AE6319DAF934002EB0E4;
 					};
@@ -230,6 +323,13 @@
 			files = (
 				39F3AE8019DAF934002EB0E4 /* Images.xcassets in Resources */,
 				39F3AE7219DAF934002EB0E4 /* InfoPlist.strings in Resources */,
+				39F3AEA719DB3604002EB0E4 /* majorList.plist in Resources */,
+				39746A8719DEE09F00F3B516 /* BarclaycardCo_Lt.ttf in Resources */,
+				39746A8619DEE09800F3B516 /* BarclaycardCo_Bd.ttf in Resources */,
+				39746A8819DEE09F00F3B516 /* BarclaycardCo_Rg.ttf in Resources */,
+				39746A8A19DEE09F00F3B516 /* Tahoma.ttf in Resources */,
+				39746A8919DEE09F00F3B516 /* MyriadPro-Bold.otf in Resources */,
+				39746A8B19DEE09F00F3B516 /* TahomaBd.ttf in Resources */,
 				39F3AE7B19DAF934002EB0E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F3AEAA19DB37DD002EB0E4 /* MajorTableViewController.m in Sources */,
+				39F3AEB019DC64E0002EB0E4 /* StudentDataViewController.m in Sources */,
+				39F3AEA319DAFACB002EB0E4 /* JVFloatLabeledTextField.m in Sources */,
 				39F3AE7E19DAF934002EB0E4 /* ViewController.m in Sources */,
+				396CCE7919DDB68F00AE1235 /* AuthenticationViewController.m in Sources */,
+				39F3AEB919DCA20D002EB0E4 /* SuccessViewController.m in Sources */,
+				39F3AEA519DAFACB002EB0E4 /* NSString+TextDirectionality.m in Sources */,
 				39F3AE7819DAF934002EB0E4 /* AppDelegate.m in Sources */,
 				39F3AE7419DAF934002EB0E4 /* main.m in Sources */,
+				39F3AEB319DC652A002EB0E4 /* Student.m in Sources */,
+				39F3AEA419DAFACB002EB0E4 /* JVFloatLabeledTextView.m in Sources */,
+				39F3AEAF19DC64E0002EB0E4 /* StudentCellTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +487,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampusfairApp/CampusfairApp-Prefix.pch";
 				INFOPLIST_FILE = "CampusfairApp/CampusfairApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +503,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampusfairApp/CampusfairApp-Prefix.pch";
 				INFOPLIST_FILE = "CampusfairApp/CampusfairApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -458,6 +573,7 @@
 				39F3AE9819DAF934002EB0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F3AE9919DAF934002EB0E4 /* Build configuration list for PBXNativeTarget "CampusfairAppTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +582,7 @@
 				39F3AE9B19DAF934002EB0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

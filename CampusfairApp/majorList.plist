@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <string>None</string>
+        <string>Accounting</string>
+        <string>Cognitive Science</string>
+        <string>Communication</string>
+        <string>Computer Engineering</string>
+        <string>Computer Science</string>
+        <string>Economics</string>
+        <string>Economics Education</string>
+        <string>Electrical Engineering</string>
+        <string>Engineering - Undeclared</string>
+        <string>Finance</string>
+        <string>Financial Planning</string>
+        <string>Information Systems</string>
+        <string>International Business Studies</string>
+        <string>International Relations</string>
+        <string>Management</string>
+        <string>Management Information Systems</string>
+        <string>Marketing</string>
+        <string>Mathematics</string>
+        <string>Mathematics Economics</string>
+        <string>Mathematics Education</string>
+        <string>Mechanical Engineering</string>
+        <string>Statistics</string>
+        <string>Other</string>
+        
+    </array>
+</plist>

@@ -1,13 +1,7 @@
-//
-//  ViewController.h
-//  CampusfairApp
-//
-//  Created by Pednekar, Chinmay on 9/30/14.
-//  Copyright (c) 2014 BarclayCardUS. All rights reserved.
-//
+#import "FloatingLabel/JVFloatLabeledTextField.h"
+#import "MajorTableViewController.h"
+#import "AuthenticationViewController.h"
 
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, MajorPickerDelegate, AuthenticationDelegate, UIGestureRecognizerDelegate>
 
 @end
