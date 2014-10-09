@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		396CCE7919DDB68F00AE1235 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396CCE7819DDB68F00AE1235 /* AuthenticationViewController.m */; };
+		396D311719E6F90E00FD79B8 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D311619E6F90E00FD79B8 /* SampleSpec.m */; };
+		396D311B19E6FA6900FD79B8 /* StudentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D311A19E6FA6900FD79B8 /* StudentSpec.m */; };
 		39746A8619DEE09800F3B516 /* BarclaycardCo_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8019DEE08800F3B516 /* BarclaycardCo_Bd.ttf */; };
 		39746A8719DEE09F00F3B516 /* BarclaycardCo_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8119DEE08800F3B516 /* BarclaycardCo_Lt.ttf */; };
 		39746A8819DEE09F00F3B516 /* BarclaycardCo_Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39746A8219DEE08800F3B516 /* BarclaycardCo_Rg.ttf */; };
@@ -27,7 +29,6 @@
 		39F3AE8819DAF934002EB0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6719DAF934002EB0E4 /* Foundation.framework */; };
 		39F3AE8919DAF934002EB0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3AE6B19DAF934002EB0E4 /* UIKit.framework */; };
 		39F3AE9119DAF934002EB0E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F3AE8F19DAF934002EB0E4 /* InfoPlist.strings */; };
-		39F3AE9319DAF934002EB0E4 /* CampusfairAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AE9219DAF934002EB0E4 /* CampusfairAppTests.m */; };
 		39F3AEA319DAFACB002EB0E4 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AE9E19DAFACB002EB0E4 /* JVFloatLabeledTextField.m */; };
 		39F3AEA419DAFACB002EB0E4 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEA019DAFACB002EB0E4 /* JVFloatLabeledTextView.m */; };
 		39F3AEA519DAFACB002EB0E4 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEA219DAFACB002EB0E4 /* NSString+TextDirectionality.m */; };
@@ -37,6 +38,7 @@
 		39F3AEB019DC64E0002EB0E4 /* StudentDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEAE19DC64E0002EB0E4 /* StudentDataViewController.m */; };
 		39F3AEB319DC652A002EB0E4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEB219DC652A002EB0E4 /* Student.m */; };
 		39F3AEB919DCA20D002EB0E4 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F3AEB819DCA20D002EB0E4 /* SuccessViewController.m */; };
+		62D45649EB4021D4DC33A762 /* libPods-CampusfairAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD8A9599CCC6A3C33739CF5 /* libPods-CampusfairAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		396CCE7719DDB68F00AE1235 /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
 		396CCE7819DDB68F00AE1235 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		396D311619E6F90E00FD79B8 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
+		396D311A19E6FA6900FD79B8 /* StudentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSpec.m; sourceTree = "<group>"; };
 		39746A8019DEE08800F3B516 /* BarclaycardCo_Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Bd.ttf; path = Resources/Fonts/BarclaycardCo_Bd.ttf; sourceTree = "<group>"; };
 		39746A8119DEE08800F3B516 /* BarclaycardCo_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Lt.ttf; path = Resources/Fonts/BarclaycardCo_Lt.ttf; sourceTree = "<group>"; };
 		39746A8219DEE08800F3B516 /* BarclaycardCo_Rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BarclaycardCo_Rg.ttf; path = Resources/Fonts/BarclaycardCo_Rg.ttf; sourceTree = "<group>"; };
@@ -76,7 +80,6 @@
 		39F3AE8619DAF934002EB0E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		39F3AE8E19DAF934002EB0E4 /* CampusfairAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampusfairAppTests-Info.plist"; sourceTree = "<group>"; };
 		39F3AE9019DAF934002EB0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		39F3AE9219DAF934002EB0E4 /* CampusfairAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusfairAppTests.m; sourceTree = "<group>"; };
 		39F3AE9D19DAFACB002EB0E4 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
 		39F3AE9E19DAFACB002EB0E4 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
 		39F3AE9F19DAFACB002EB0E4 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
@@ -94,6 +97,9 @@
 		39F3AEB219DC652A002EB0E4 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		39F3AEB719DCA20D002EB0E4 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
 		39F3AEB819DCA20D002EB0E4 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		3AD8A9599CCC6A3C33739CF5 /* libPods-CampusfairAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CampusfairAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18ADD6588A4029C6B9D05BD /* Pods-CampusfairAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusfairAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusfairAppTests/Pods-CampusfairAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E19189C6CB537A15734C66B3 /* Pods-CampusfairAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusfairAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusfairAppTests/Pods-CampusfairAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				39F3AE8719DAF934002EB0E4 /* XCTest.framework in Frameworks */,
 				39F3AE8919DAF934002EB0E4 /* UIKit.framework in Frameworks */,
 				39F3AE8819DAF934002EB0E4 /* Foundation.framework in Frameworks */,
+				62D45649EB4021D4DC33A762 /* libPods-CampusfairAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 				39F3AE8C19DAF934002EB0E4 /* CampusfairAppTests */,
 				39F3AE6619DAF934002EB0E4 /* Frameworks */,
 				39F3AE6519DAF934002EB0E4 /* Products */,
+				3DB6863B64D911EC97249F63 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +175,7 @@
 				39F3AE6919DAF934002EB0E4 /* CoreGraphics.framework */,
 				39F3AE6B19DAF934002EB0E4 /* UIKit.framework */,
 				39F3AE8619DAF934002EB0E4 /* XCTest.framework */,
+				3AD8A9599CCC6A3C33739CF5 /* libPods-CampusfairAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,7 +223,8 @@
 		39F3AE8C19DAF934002EB0E4 /* CampusfairAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				39F3AE9219DAF934002EB0E4 /* CampusfairAppTests.m */,
+				396D311619E6F90E00FD79B8 /* SampleSpec.m */,
+				396D311A19E6FA6900FD79B8 /* StudentSpec.m */,
 				39F3AE8D19DAF934002EB0E4 /* Supporting Files */,
 			);
 			path = CampusfairAppTests;
@@ -242,6 +252,15 @@
 			path = FloatingLabel;
 			sourceTree = "<group>";
 		};
+		3DB6863B64D911EC97249F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A18ADD6588A4029C6B9D05BD /* Pods-CampusfairAppTests.debug.xcconfig */,
+				E19189C6CB537A15734C66B3 /* Pods-CampusfairAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F3AE9919DAF934002EB0E4 /* Build configuration list for PBXNativeTarget "CampusfairAppTests" */;
 			buildPhases = (
+				7A9BA9D9FE521F95A11D83A3 /* Check Pods Manifest.lock */,
 				39F3AE8119DAF934002EB0E4 /* Sources */,
 				39F3AE8219DAF934002EB0E4 /* Frameworks */,
 				39F3AE8319DAF934002EB0E4 /* Resources */,
+				169A146DA3A9C0289EB54CD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -344,6 +365,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		169A146DA3A9C0289EB54CD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusfairAppTests/Pods-CampusfairAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9BA9D9FE521F95A11D83A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39F3AE6019DAF934002EB0E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -368,7 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F3AE9319DAF934002EB0E4 /* CampusfairAppTests.m in Sources */,
+				396D311B19E6FA6900FD79B8 /* StudentSpec.m in Sources */,
+				396D311719E6F90E00FD79B8 /* SampleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampusfairApp/CampusfairApp-Prefix.pch";
 				INFOPLIST_FILE = "CampusfairApp/CampusfairApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -508,6 +564,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampusfairApp/CampusfairApp-Prefix.pch";
 				INFOPLIST_FILE = "CampusfairApp/CampusfairApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -516,6 +573,7 @@
 		};
 		39F3AE9A19DAF934002EB0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18ADD6588A4029C6B9D05BD /* Pods-CampusfairAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampusfairApp.app/CampusfairApp";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -538,6 +596,7 @@
 		};
 		39F3AE9B19DAF934002EB0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19189C6CB537A15734C66B3 /* Pods-CampusfairAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampusfairApp.app/CampusfairApp";
 				FRAMEWORK_SEARCH_PATHS = (
